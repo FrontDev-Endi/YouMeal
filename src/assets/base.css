@@ -1,0 +1,12 @@
+*{
+  --orenge: #FF7020;
+  --yellow: #FFAB08;
+  --black: #000000;
+  --white-light: #F9F9F9;
+  --grey: #F2F2F3;
+  --white: #FFFFFF;
+}
+
+:root{
+  --index: calc(1vw + 1vh);
+}
