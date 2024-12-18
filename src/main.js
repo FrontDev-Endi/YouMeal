@@ -44,7 +44,7 @@ const router = createRouter({
     component: Outofstock
   },
 ],
-  history: createWebHistory()
+  history: createWebHistory('/YouMeal')
 })
 
 const app = createApp(App)
