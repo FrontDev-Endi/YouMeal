@@ -6,63 +6,63 @@ import Categorie from "./Categorie.vue";
   <div class="categories">
     <router-link to="/">
       <Categorie
-        img="/public/Burgers.svg"
+        img="./Burgers.svg"
         title="Burgers"
         :class="{ active: $route.path === '/' }"
       />
     </router-link>
     <router-link to="/appetizers">
       <Categorie
-        img="/public/Appetizers.svg"
+        img="./Appetizers.svg"
         title="Appetizers"
         :class="{ active: $route.path === '/appetizers' }"
       />
     </router-link>
     <router-link to="/hotdogs">
       <Categorie
-        img="/public/Hot dogs.svg"
+        img="./Hot dogs.svg"
         title="Hot dogs"
         :class="{ active: $route.path === '/hotdogs' }"
       />
     </router-link>
     <router-link to="/combo">
       <Categorie
-        img="/public/Combo.svg"
+        img="./Combo.svg"
         title="Combo"
         :class="{ active: $route.path === '/combo' }"
       />
     </router-link>
     <router-link to="/shawarma">
       <Categorie
-        img="/public/Shawarma.svg"
+        img="./Shawarma.svg"
         title="Shawarma"
         :class="{ active: $route.path === '/shawarma' }"
       />
     </router-link>
     <router-link to="/pizza">
       <Categorie
-        img="/public/Pizza.svg"
+        img="./Pizza.svg"
         title="Pizza"
         :class="{ active: $route.path === '/pizza' }"
       />
     </router-link>
     <router-link to="/wok">
       <Categorie
-        img="/public/Wok.svg"
+        img="./Wok.svg"
         title="Wok"
         :class="{ active: $route.path === '/wok' }"
       />
     </router-link>
     <router-link to="/desserts">
       <Categorie
-        img="/public/Desserts.svg"
+        img="./Desserts.svg"
         title="Desserts"
         :class="{ active: $route.path === '/desserts' }"
       />
     </router-link>
     <router-link to="/sauces">
       <Categorie
-        img="/public/Sauces.svg"
+        img="./Sauces.svg"
         title="Sauces"
         :class="{ active: $route.path === '/sauces' }"
       />
